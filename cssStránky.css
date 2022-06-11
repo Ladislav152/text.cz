@@ -1,0 +1,427 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Vechn� stranky*/
+.ob h1 {
+    color: white;
+    text-align: center;
+    background-color: DimGray;
+    Font-style: 48px;
+    Width: 100%;
+    Height: 50px;
+    padding-top: 6px;
+    margin: 0 0 0 0;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    /*y spuradnice */
+    justify-content: center;
+    /*x spuradnice */
+    display: flex;
+    /*skupiny*/
+    background-color: 240, 240, 240;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #6c6c6c;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.nav li a {
+    color: lightgrey;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.nav li a img {
+    color: lightgrey;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+
+
+
+
+.baner {
+    Width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.banerr {
+    Width: 100%;
+}
+
+.nadpis {
+    font-family: 'Brush Script MT', cursive;
+}
+
+
+
+.footer {
+    width: 100%;
+    Height: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+
+.footer_image {
+    width: 100%;
+    Height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.paticka_text {
+    color: white;
+}
+
+.nav li a:link {
+    color: lightgrey;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav li a:hover {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.np h1 {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+/*Hlavn�*/
+
+.odstavecS {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.textS {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.ch1S {
+    text-align: center;
+    color: white;
+
+
+}
+
+.cp1S {
+    color: lightgrey;
+    text-align: center;
+    width: 80%;
+    margin: 25px auto;
+
+}
+
+.obrazekS {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.obrazekS img {
+    width: 500px;
+}
+
+/*kontakt*/
+.ObrIkn {
+    text-align: center;
+}
+
+.celyKon {
+    width: 100%;
+
+}
+
+.clanekKon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    gap: 100px;
+}
+
+.email {
+    width: 50%;
+}
+
+.telefon {
+    width: 50%;
+}
+
+.ch1k {
+    color: white;
+}
+
+.cp1k {
+    color: white;
+}
+
+.ikons li {
+    display: inline-block;
+    padding-right: 30px;
+
+}
+
+.ikons img:hover {
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
+
+.np h2 {
+
+    color: white;
+
+}
+
+.map {
+    width: 100%;
+}
+
+
+
+/*Oble�en� a �perky*/
+.h1M {
+
+    color: white;
+    text-align: center;
+}
+
+
+
+.hadry {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+
+.hadry img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+/*Mikyny*/
+.h1M {
+
+    color: white;
+    text-align: center;
+}
+
+.mikiny a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mikiny img:hover {
+    transform: scale(1.1);
+
+}
+
+.mikiny a:hover {
+    transform: scale(1.1);
+    color: lightgrey;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.pM {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+/*Jednotliv�*/
+
+.cely {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.textM {
+    width: 50%;
+    color: #C0C0C0;
+    padding: 0 0 0 80;
+}
+
+.obrazekJ {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.obrazekJ img {
+    width: 500px;
+}
+
+.text {
+    padding-right: 290px;
+    float: right;
+    padding-top: 70px;
+    color: #C0C0C0;
+}
+
+
+.textTR {
+    padding-right: 400px;
+    float: right;
+    padding-top: 70px;
+    color: #C0C0C0;
+}
+
+.textTP {
+    padding-right: 300px;
+    float: right;
+    padding-top: 70px;
+    color: #C0C0C0;
+}
+
+
+.velikost {
+    margin: 0 0 0 0;
+}
+
+.velikostBT {
+    font-size: 20;
+    background-color: DimGray;
+    border-color: LightGray;
+    color: rgb(220, 218, 215);
+    margin: 10 0 15 0;
+
+}
+
+
+.tabulka {
+    color: #C0C0C0;
+    font-size: 13;
+}
+
+.tlacitko {
+    background-color: DimGray;
+    border-color: LightGray;
+    color: rgb(220, 218, 215);
+    text-decoration-color: initial;
+    text-shadow: none;
+    font-size: 25;
+}
+
+.tlacitko:hover {
+    text-decoration-color: initial;
+    text-shadow: none;
+}
+
+
+/*galerie*/
+
+.galerie {
+    margin: 10px 50px;
+}
+
+.galerie img {
+    padding: 5px;
+    width: 230px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.galerie img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+
+@media only screen and (max-width: 1080px) {
+    .odstavecS {
+        flex-wrap: wrap;
+
+    }
+
+    .textS {
+        width: 80%;
+    }
+
+    .obrazekS {
+        width: 80%;
+    }
+
+    .obrazekS img {
+        width: 80%;
+    }
+
+    .cp1S {
+        width: 100%;
+    }
+
+    .cely {
+        flex-wrap: wrap;
+    }
+
+    .obrazekJ {
+        width: 100%;
+        margin: 0;
+    }
+
+    .obrazekJ img {
+        width: 100%;
+        margin: 0;
+    }
+
+    #mikinaA {
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1170px) {
+    .hadry {
+        flex-wrap: wrap;
+    }
+}
